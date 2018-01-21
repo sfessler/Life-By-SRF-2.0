@@ -32,6 +32,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'pg', '~> 0.21' 
 gem 'rails_12factor'
+gem 'friendly_id', '~> 5.1.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
