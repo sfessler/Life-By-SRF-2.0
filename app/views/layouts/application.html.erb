@@ -1,7 +1,12 @@
 <!DOCTYPE html>
+<script src="https://use.fontawesome.com/62d293497d.js"></script>
+
 <html>
   <head>
-    <title>LifeBySRF20</title>
+    <title>
+		Life By SRF
+	</title>
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +14,29 @@
   </head>
 
   <body>
+	<header id="main_navigation" class="clearfix">
+			<%= link_to "Life By SRF", root_path, class: "name" %>
+			<nav>
+				<%= link_to "Thoughts", posts_path %>
+				<a href="projects.html">Projects</a>
+				<a href="#">Contact</a>
+			</nav>
+			</header>
+
     <%= yield %>
   </body>
+
+  <footer id="main_footer"><p class="copyright">&copy; 2018 Scott Fessler</p>
+	<nav>
+		<a href="https://twitter.com/SRF_NY" target="_blank"><i class="fa fa-twitter"></i></a>
+		<a href="https://www.facebook.com/goblue420" target="_blank"><i class="fa fa-facebook"></i></a>
+		<a href="https://github.com/sfessler" target="_blank"><i class="fa fa-github"></i></a>
+		<a href="https://www.linkedin.com/in/scott-fessler-6b3a796b/" target="_blank"><i class="fa fa-linkedin"></i></a>
+		<a href="#"><i class="fa fa-btc"></i></a>
+	</nav>
+	</nav>
+	</nav>
+	</nav>
+	</footer>	
+
 </html>
