@@ -41,8 +41,20 @@ body {
 
 .skinny_wrapper{
 	width: 100%;
-	max-width: 760px;
 	margin: 0 auto;
+}
+
+.box_1 {
+	margin-left: 20%;
+}
+
+textarea {
+  width: 600px;
+  height: 300px;
+}
+
+input {
+	width: 600px;
 }
 
 .clearfix:before,
@@ -53,6 +65,10 @@ body {
 
 .clearfix:after {
 	clear: both;
+}
+
+h1 {
+	text-align: center;
 }
 
 h2{
@@ -79,6 +95,11 @@ li {
 p{
 	padding: 0em 5%;
 	text-align: left;
+}
+
+h7 {
+	text-align: left;
+	margin-left: 20%;
 }
 
 .share_post {
