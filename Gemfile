@@ -30,6 +30,8 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'pg'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
@@ -54,6 +56,5 @@ gem 'pygments.rb','~> 1.2.1'
 gem 'redcarpet','~> 3.4.0'
 
 group :production do
-	gem 'pg'
 	gem 'rails_12factor'
 end
