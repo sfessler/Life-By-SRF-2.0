@@ -50,3 +50,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'bootstrap', '~> 4.0.0.beta3'
 gem 'will_paginate', '~> 3.1.0'
+gem 'pygments.rb','~> 1.2.1'
+gem 'redcarpet','~> 3.4.0'
