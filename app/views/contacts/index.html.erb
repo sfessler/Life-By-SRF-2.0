@@ -1,0 +1,33 @@
+		<h3>Phone: (516) 509-1672</h3> 
+		<h3>Email: scottrfessler@gmail.com</h3>
+				<hr align="center" width="90%">
+		   <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5h9g17Mc6_NKF8RhtT2e5nSBw57QjhMM&callback=initMap">
+    </script>
+	</div>	
+<style>
+       #map {
+        height: 400px;
+        width: 90%;
+       margin-left: 5%;
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var uluru = {lat: 40.7831, lng: -73.9712};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 9,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+</div>	
+<hr align="center" width="90%">
+<br>
+</div>
