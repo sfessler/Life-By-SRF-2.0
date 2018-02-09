@@ -3,10 +3,10 @@
 		<div class="col-2 homepage_content">
 				<h2>Thoughts</h2>
 				<hr align="center" width="20%">
-				<br>
+				
 				<% @posts.each do |post| %>
-				<h3><a href="#"><%= link_to post.title, post%></a></h3>
 				<p class="date"><%= post.created_at.strftime("%A, %b %d") %></p>
+				<h3><a href="#"><%= link_to post.title, post%></a></h3>
 				<hr align="center" width="10%">
 				<% end %>
 		</div>
